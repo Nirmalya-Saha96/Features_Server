@@ -7,7 +7,7 @@ const app = express();
 const server = require('http').createServer(app);
 
 mongoose.connect(
-   `mongodb+srv://admin-Nirmalya:nirmalya@todolist1.wkjay.mongodb.net/docsDB`,
+   `mongodb+srv://admin-Nirmalya:<password>@todolist1.wkjay.mongodb.net/docsDB`,
   //'mongodb://localhost/google-docs-clone',
   {
     useNewUrlParser: true,
